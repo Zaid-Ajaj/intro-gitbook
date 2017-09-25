@@ -1,5 +1,5 @@
 {
-    "plugins": ["enhanced-katex", "prism", "-highlight", "-katex"],
+    "plugins": ["enhanced-katex", "prism", "-highlight"],
     "pluginsConfig": {
         "prism": {
           "css": [
