@@ -1,8 +1,12 @@
-node('docker') {
-    checkout scm
+pipeline {
+  agent {
+    docker { image 'node:latest' }
+  }
+  stages {
     stage('Build') {
-        docker.image('node:latest').inside {
-            sh 'bash build.sh'
-        }
+      steps {
+        sh 'bash build.sh'
+      }
     }
+  }
 }
