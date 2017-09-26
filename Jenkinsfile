@@ -1,9 +1,11 @@
 pipeline {
-  agent any
+  agent {
+    docker { image 'node:latest' }
+  }
   stages {
-    stage('') {
+    stage('Build') {
       steps {
-        sh '''bash build.sh'''
+        bash build.sh
       }
     }
   }
