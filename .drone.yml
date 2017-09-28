@@ -2,6 +2,4 @@ pipeline:
   build:
     image: node
     commands:
-      - npm install -g gitbook-cli
-      - gitbook install
-      - gitbook build
+      - echo "Dummy command"
