@@ -1,5 +1,6 @@
 pipeline:
   build:
-    image: node
+    image: humangeo/gitbook
     commands:
-      - echo "Dummy command"
+      - gitbook install
+      - gitbook build
