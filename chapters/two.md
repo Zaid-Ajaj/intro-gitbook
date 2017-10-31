@@ -2,7 +2,7 @@
 
 The sidebar is quite flexibel too, nesting elements in the SUMMARY.md file reflects the structure of the sidebar. 
 
-The following code snippet is highlighted with the Prism plugin. 
+The following code snippet is highlighted with the Prism plugin:
 
 ```fsharp
 open Fable.Parsimmon 
