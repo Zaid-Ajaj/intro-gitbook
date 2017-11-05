@@ -3,8 +3,10 @@
 ### Getting Started
 - [Introduction](README.md)
 - [Getting Started](chapters/getting-started.md)
-  - [Nested](chapters/two.md) 
-- [Inline Math](chapters/inline-math.md)
+  - [Nested](chapters/nested.md)
+    - [Next](chapters/next.md)
+  - [Code Sample](chapters/code.md) 
 
-### More Math
+### Math with LateX
+- [Inline Math](chapters/inline-math.md)
 - [Block Math](chapters/block-math.md)

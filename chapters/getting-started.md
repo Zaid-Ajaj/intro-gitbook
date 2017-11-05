@@ -6,7 +6,7 @@ Getting started with this gitbook template is easy. First of all you need to ins
 npm install
 ```
 
-After that you will three commands you will use:
+After that you will have three commands you will use:
 - Building the gitbook
 - Serve gitbook and watch/reload on every change
 - Publish your gitbook output to github pages (gh-pages branch)
