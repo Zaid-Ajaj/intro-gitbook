@@ -1,3 +1,6 @@
 {
-    "plugins": ["enhanced-katex"]
+    "plugins": ["enhanced-katex"],
+    "styles":{
+       "website": "styles/website.css"
+    }
 }
