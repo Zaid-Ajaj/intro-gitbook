@@ -10,20 +10,14 @@
   },
   "scripts": {
     "build": "gitbook build",
-    "serve": "gitbook serve"
+    "serve": "gitbook serve",
+    "publish": "node publish.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zaid-Ajaj/intro-gitbook.git"
+    "url": "https://github.com/Zaid-Ajaj/intro-gitbook.git"
   },
-  "keywords": [
-    "gitbook",
-    "template"
-  ],
+  "keywords": [ "gitbook", "template"],
   "author": "Zaid Ajaj",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Zaid-Ajaj/intro-gitbook/issues"
-  },
-  "homepage": "https://github.com/Zaid-Ajaj/intro-gitbook#readme"
+  "license": "MIT"
 }
