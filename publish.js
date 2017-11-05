@@ -13,7 +13,7 @@ ghPages.publish("_book", {
     repo: package.repository.url
 }, function(e) {
     if (e === undefined) {
-        console.log("Finished publishing");
+        console.log("Finished publishing succesfully");
     } else {
         console.log("Error occured while publishing :(");
     }
