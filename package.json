@@ -11,7 +11,7 @@
   "scripts": {
     "build": "gitbook build",
     "serve": "gitbook serve",
-    "publish": "node publish.js"
+    "publish": "gitbook build && node publish.js"
   },
   "repository": {
     "type": "git",
