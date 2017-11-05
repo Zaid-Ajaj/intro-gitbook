@@ -4,7 +4,6 @@
 - [Introduction](README.md)
 - [Getting Started](chapters/getting-started.md)
   - [Nested](chapters/nested.md)
-    - [Next](chapters/next.md)
   - [Code Sample](chapters/code.md) 
 
 ### Math with LateX
