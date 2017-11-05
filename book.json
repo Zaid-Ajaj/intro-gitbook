@@ -1,11 +1,3 @@
 {
-    "plugins": ["enhanced-katex", "prism", "-highlight"],
-    "pluginsConfig": {
-        "prism": {
-          "css": [
-            "../../syntax-css/base16-google.css",
-            "../../syntax-css/custom.css"
-          ]
-        }
-    }
+    "plugins": ["enhanced-katex"]
 }

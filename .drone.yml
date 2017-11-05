@@ -1,6 +1,0 @@
-pipeline:
-  build:
-    image: humangeo/gitbook
-    commands:
-      - gitbook install
-      - gitbook build
