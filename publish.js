@@ -12,5 +12,9 @@ var package = JSON.parse(packageContents);
 ghPages.publish("_book", {
     repo: package.repository.url
 }, function(e) {
-    console.log("Finished publishing");
+    if (e === undefined) {
+        console.log("Finished publishing succesfully");
+    } else {
+        console.log("Error occured while publishing :(");
+    }
 });

@@ -10,7 +10,8 @@
   },
   "scripts": {
     "build": "gitbook build",
-    "serve": "gitbook serve"
+    "serve": "gitbook serve",
+    "publish": "node publish.js"
   },
   "repository": {
     "type": "git",
